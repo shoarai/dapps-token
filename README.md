@@ -1,6 +1,11 @@
 # dapps-token
 dapps-token is sample token on ethereum network.
 
+### Depend on
+* truffle
+* zeppelin-solidity - ERC20/StandardToken.sol
+* truffle-hdwallet-provider
+
 ### Create dapps-token
 * Init
   ```sh
@@ -32,7 +37,7 @@ $ dappsToken.transfer(web3.eth.accounts[1], 200)
 ```
 
 ### Run in external network
-Migrate to development network in truffle.js, for example, [go-ethreum](https://ethereum.github.io/go-ethereum/).
+Migrate to development network in truffle.js, for example, [Go Ethereum](https://ethereum.github.io/go-ethereum/).
 ```sh
 $ truffle migrate --network development
 $ truffle console --network development
